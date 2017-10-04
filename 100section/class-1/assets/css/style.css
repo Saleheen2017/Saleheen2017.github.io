@@ -1,0 +1,138 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #222222;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #565656;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.blog-bg-1 {
+    background-image: url(../images/image1.jpg);
+}
+
+.blog-bg-2 {
+    background-image: url(../images/image2.jpg);
+}
+
+.blog-bg-3 {
+    background-image: url(../images/image3.jpg);
+}
+
+.blog-bg-1,
+.blog-bg-2,
+.blog-bg-3 {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    color: #ddd;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+.section-title {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 70px;
+    color: #565656;
+}
+.section-title h2 {
+    color: #222222;
+    font-size: 32px;
+}
+
+.single-blog-box {
+    
+}
+.blog-bg {
+    border: 1px solid #FF8F17;
+}
+.blog-bg {
+    border-bottom: 0px solid;
+}
+
+.blog-meta a {
+    color: #565656;
+}
+.blog-meta i.fa {
+    color: #FF8F17;
+    margin-right: 5px;
+}
+.blog-meta {
+    font-size: 14px;
+}
+.blog-meta span {
+    padding-right: 10px;
+}
+.blog-meta span:last-child {
+    padding-right: 0;
+}
+
+.blog-content {
+    border: 1px solid #E9E9E9;
+    padding: 30px;
+    transition: .3s;
+}
+.blog-content h3 {
+    font-size:  20px;
+    margin-top: 15px;
+}
+
+.blog-readmore-btn {
+    display: inline-block;
+    background: #FF8F17;
+    color:  #fff;
+    font-size:  12px;
+    padding:  12px 24px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: 700;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+.blog-readmore-btn:hover {
+    background: #333;
+    color: #fff;
+}
+.single-blog-box:hover .blog-content {
+    border-color: #FF8F17;
+}
