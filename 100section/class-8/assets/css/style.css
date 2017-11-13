@@ -1,0 +1,113 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #9c9c9c;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 80px 0;
+    background: #F9F9F9;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+.section-title h2 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+.single-service-box {
+    transition: 0.2s;
+}
+.single-service-box:hover {
+    box-shadow: 0 0 40px #E6F5EC;
+}
+
+.service-bg-1 {background-image: url(../images/bg-1.jpg);}
+.service-bg-2 {background-image: url(../images/bg-2.jpg);}
+.service-bg-3 {background-image: url(../images/bg-3.jpg);}
+.service-bg-4 {background-image: url(../images/bg-4.jpg);}
+
+.single-service-bg {
+    height: 225px;
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+}
+
+.single-service-content {
+    background: #fff;
+    padding: 20px;
+}
+.single-service-content h3 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.single-service-content p {
+    font-size: 14px;
+}
+
+.single-service-btn {
+    display: inline-block;
+    font-size: 14px;
+    color: #2ECC71;
+    font-weight: 700;
+    padding: 10px 0;
+    border-radius: 50px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+.single-service-btn:hover {
+    background: #2ECC71;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.single-service-btn i.fa {
+    padding-left: 10px;
+}
